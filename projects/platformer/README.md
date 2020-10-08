@@ -125,7 +125,8 @@ createPlatform(500, 500, 0.3, 10)   // tall vertical wall (30% the normal width 
 <hr> 
 
 # Very Important:
-In most 2D games, the y-axis is inverted. This means that a y value of 500 is closer to the bottom of your screen than a y value of 100. For examples of what this means, click on the "examples" button below. 
+1) In most 2D games, the y-axis is inverted. This means that a y value of 500 is closer to the bottom of your screen than a y value of 100. For examples of what this means, click on the "examples" button below. 
+2) The dimensions of your game world are **900 x 700**, so keep that in mind as you move forward.
 
 <details> <summary> Examples </summary>
 
@@ -202,6 +203,9 @@ createCannon("top", 450); // a cannon on the top of the screen, located at x = 4
 createCannon("left", 300, 1000); // a cannon on the left side of the screen, located at y = 300, with a 1 second delay (1000ms)
 ```
 <hr> 
+
+### WARNING
+**Placing the cannons outside of bounds of the game will cause it to crash instantly!**
 
 ## TODO 4: Make your level challenging!
 
